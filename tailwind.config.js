@@ -9,13 +9,13 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
       },
       screens: {
-        'xs': '320px',
-        // 'md': '768px',
+        'desktop': '1200px',
       },
       colors:{
         header: '#E7E7E7',
         line: '#936EEA',
         'pale-grey':'#C2C2C2',
+        'dark-blue': '#090C35',
         'background-pale-purple': '#F5F4F9', 
         'background-main-purple': '#5E3DB3'
       },
@@ -23,7 +23,8 @@ module.exports = {
         '100%': '100%'
       },
       height:{
-        300: '300px'
+        300: '300px',
+        '100%': '100%'
       },
       inset: {
         '50%': '50%',
