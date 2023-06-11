@@ -4,7 +4,7 @@ import { SmallLandingPage } from './pages/landingPage/SmallLandingPage';
 
 function App() {
   const { width } = useWindowSize();
-  const isSmallDevice = width < 320;
+  const isSmallDevice = width < 768;
   return isSmallDevice ? <SmallLandingPage /> : <LandingPage />;
 }
 

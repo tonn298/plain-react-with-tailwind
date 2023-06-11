@@ -4,10 +4,7 @@ type bulletCardProps = {
   heading: string;
   body: string;
   className: string;
-  // color: string;
 };
-
-// xs:bg-red-500 md:bg-black
 
 export const BulletPointCard = ({
   number,
